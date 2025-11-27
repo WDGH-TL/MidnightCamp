@@ -8,17 +8,20 @@ using System.Collections.Generic;
 public class MovingEnemy : MonoBehaviour
 {
     public NavMeshAgent miGo;
+    public Transform playerFound; // Player ahora es perseguido
+    public float detection; // Detecta al player
     public float walkingSpeed = 5.5f; // Caminar Animación
     public float runningSpeed = 9.0f; // Correr Animación
     public Transform[] patrolAreas; // Lista de Areas a patrullar
     public float distanceDestinies; // Distancia del enemigo y el primer Area
     private int patrols; // Contador
     private Animator animator;
+    public AudioSource playerIsFound;
     public float idleTime = 2.0f;
     public float idleTimer;
 
-    public AudioSource imMoving;
-
+    public AudioSource itemDropHeard;
+    Vector3 itemPosition;
 
     public enum ENEMY_STATE
     {
@@ -32,6 +35,7 @@ public class MovingEnemy : MonoBehaviour
     {
 
         currentState = ENEMY_STATE.Idle;
+        playerIsFound = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
 
         if (miGo == null || animator == null)
@@ -39,10 +43,10 @@ public class MovingEnemy : MonoBehaviour
             enabled = false;
         }
 
+        playerFound = FindAnyObjectByType<Player>().transform;
         miGo.speed = walkingSpeed;
         distanceDestinies = Vector3.Distance(transform.position, patrolAreas[patrols].position);
         miGo.destination = patrolAreas[patrols].position;
-        imMoving = GetComponent<AudioSource>();
         WalkingState();
     }
 
@@ -51,25 +55,39 @@ public class MovingEnemy : MonoBehaviour
     {
         float speed = miGo.velocity.magnitude;
         animator.SetFloat("Speed", speed);
+        float playerDistance = Vector3.Distance(transform.position, playerFound.position);
         switch (currentState)
         {
             case ENEMY_STATE.Idle:
-
+                if (playerDistance <= detection)
+                {
+                    RunningState();
+                }
                 idleTimer -= Time.deltaTime;
                 if (idleTimer <= 0)
                 {
-                    imMoving.Play();
                     patrols = (patrols + 1) % patrolAreas.Length;
                     WalkingState();
                 }
                 break;
 
             case ENEMY_STATE.Walking:
+                if (playerDistance <= detection)
+                {
+                    RunningState();
+                }
                 if (!miGo.pathPending && miGo.remainingDistance < 0.5f)
                 {
                     IdleState();
-                    imMoving.Stop();
                 }
+                break;
+
+            case ENEMY_STATE.Running:
+                if (playerDistance >= detection + 3)
+                {
+                    WalkingState();
+                }
+                miGo.destination = playerFound.position;
                 break;
         }
     }
@@ -86,5 +104,49 @@ public class MovingEnemy : MonoBehaviour
         miGo.isStopped = false;
         miGo.speed = walkingSpeed;
         miGo.destination = patrolAreas[patrols].position;
+        if (playerIsFound.isPlaying)
+        {
+            playerIsFound.Stop();
+        }
     }
+
+    void RunningState()
+    {
+        currentState = ENEMY_STATE.Running;
+        miGo.isStopped = false;
+        miGo.speed = runningSpeed;
+        miGo.destination = patrolAreas[patrols].position;
+        if (!playerIsFound.isPlaying)
+        {
+            playerIsFound.Play();
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(miGo.transform.position, detection);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("YouLoose");
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.GetComponent<AudioSource>() != null)
+        {
+            itemDropHeard = other.GetComponent<AudioSource>();
+            if (itemDropHeard.isPlaying)
+            {
+                itemDropHeard = other.GetComponent<AudioSource>();
+                itemPosition = itemDropHeard.transform.position;
+                miGo.destination = itemPosition;
+            }
+        }
+    }
+
 }
