@@ -131,7 +131,7 @@ public class MovingEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("YouLoose");
+            
         }
     }
 
