@@ -20,7 +20,6 @@ public class MovingEnemy : MonoBehaviour
     public float idleTime = 2.0f;
     public float idleTimer;
 
-    public AudioSource itemDropHeard;
     Vector3 itemPosition;
 
     public enum ENEMY_STATE
@@ -133,19 +132,6 @@ public class MovingEnemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("YouLoose");
-        }
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.GetComponent<AudioSource>() != null)
-        {
-            itemDropHeard = other.GetComponent<AudioSource>();
-            if (itemDropHeard.isPlaying)
-            {
-                itemDropHeard = other.GetComponent<AudioSource>();
-                itemPosition = itemDropHeard.transform.position;
-                miGo.destination = itemPosition;
-            }
         }
     }
 
