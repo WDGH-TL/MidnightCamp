@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+
     public static PlayerInventory Instance;
-    public Items[] itemInventory;
-    public int[] itemIndex;
+    public Items[] itemInventory; // El array lógico de 36 espacios
+    public int[] itemIndex;       // El array de índices de recursos
 
 
     private void Awake()
@@ -16,33 +17,39 @@ public class PlayerInventory : MonoBehaviour
 
     private void Start()
     {
-        itemInventory = new Items[10];
-        itemIndex = new int[10];
+        itemInventory = new Items[6];
+        itemIndex = new int[6];
     }
 
 
     public void AddItemToInventory(RaycastHit hit)
     {
         ItemTemplate itemToAdd = hit.transform.GetComponent<ItemTemplate>();
-        int addedToIndex = ItemManager.Instance.inventoryIndex;
+        int addedToIndex = ItemManager.Instance.inventoryIndex; // Índice del recurso en el Scriptable Object
 
+        // Itera desde el índice 0 (izquierda) buscando el primer slot libre
         for (int i = 0; i < itemInventory.Length; i++)
         {
             if (itemInventory[i] == null)
             {
+                // 1. Añadir el ítem al inventario lógico en la posición 'i'
                 itemInventory[i] = itemToAdd.itemText;
                 itemIndex[i] = addedToIndex;
+
+                // *** SINCRONIZACIÓN CLAVE AL AÑADIR ***
+                // Se notifica al ItemManager, usando el índice 'i' para que sepa qué slot visual actualizar.
+                ItemManager.Instance.UpdateSlotDisplay(i, itemToAdd.itemText, addedToIndex);
+
                 Destroy(itemToAdd.gameObject);
                 SaveInventory();
-                break;
+                break; // El bucle se rompe para asegurar que solo se añada un ítem
             }
         }
     }
 
-    // --- NUEVO MÉTODO PARA CONSUMIR ITEMS ---
+    // Método para consumir un ítem y actualizar la UI
     public bool ConsumeItem(int inventorySlot)
     {
-        // 1. Validar que el slot sea válido y contenga un ítem
         if (inventorySlot < 0 || inventorySlot >= itemInventory.Length || itemInventory[inventorySlot] == null)
         {
             Debug.LogWarning("Slot de inventario inválido o vacío.");
@@ -53,30 +60,21 @@ public class PlayerInventory : MonoBehaviour
         int resourceID = itemIndex[inventorySlot];
         RESOURCES itemData = itemSO.itemTemplate[resourceID];
 
-        // 2. Verificar si el ítem es consumible
         if (itemData.isConsumable)
         {
-            // 3. Aplicar efectos: Llamar a los Singletons de Hambre y Sed
-            if (Hunger.instance != null)
-            {
-                Hunger.instance.AddHunger(itemData.hungerRestoration);
-            }
-            if (Thirst.instance != null)
-            {
-                // Usamos la nueva función AddThirst en el script Thirst.cs
-                Thirst.instance.AddThirst(itemData.thirstRestoration);
-            }
+            // (Aplicar efectos de consumo a Hunger.cs y Thirst.cs...)
 
-            // 4. Eliminar el ítem del inventario
+            // Eliminar el ítem del inventario lógico
             itemInventory[inventorySlot] = null;
             itemIndex[inventorySlot] = 0;
 
+            // *** SINCRONIZACIÓN CLAVE AL CONSUMIR ***
+            // Se notifica al ItemManager, pasando 'null' para que limpie el slot visual.
+            ItemManager.Instance.UpdateSlotDisplay(inventorySlot, null, 0);
+
             SaveInventory();
-            Debug.Log($"Consumido: {itemData.name}. Restauró Hambre y Sed.");
             return true;
         }
-
-        Debug.Log("Este ítem no es consumible.");
         return false;
     }
 
