@@ -48,10 +48,10 @@ public class Hunger : MonoBehaviour
         }
     }
 
+    // --- FUNCIÓN PARA AÑADIR/RESTAURAR HAMBRE ---
     public void AddHunger(float amount)
     {
         currentHunger += amount;
         currentHunger = Mathf.Clamp(currentHunger, 0, maxHunger);
     }
-
 }

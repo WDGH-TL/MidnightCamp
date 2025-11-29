@@ -48,10 +48,10 @@ public class Thirst : MonoBehaviour
         }
     }
 
-    public void AddHunger(float amount)
+    // --- FUNCIÓN PARA AÑADIR/RESTAURAR SED (NUEVA) ---
+    public void AddThirst(float amount)
     {
         currentThirst += amount;
         currentThirst = Mathf.Clamp(currentThirst, 0, maxThirst);
     }
-
 }
