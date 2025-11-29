@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
     public static PlayerInventory Instance;
     public Items[] itemInventory;
     public int[] itemIndex;
+    public InventoryUI inventoryUI;
 
 
     private void Awake()
@@ -32,6 +33,8 @@ public class PlayerInventory : MonoBehaviour
             {
                 itemInventory[i] = itemToAdd.itemText;
                 itemIndex[i] = addedToIndex;
+                RESOURCES productData = itemInventory[i].itemTemplate[addedToIndex];
+                inventoryUI.drawNames(productData.name);
                 Destroy(itemToAdd.gameObject);
                 SaveInventory();
                 break;
@@ -39,10 +42,8 @@ public class PlayerInventory : MonoBehaviour
         }
     }
 
-    // --- NUEVO MÉTODO PARA CONSUMIR ITEMS ---
     public bool ConsumeItem(int inventorySlot)
     {
-        // 1. Validar que el slot sea válido y contenga un ítem
         if (inventorySlot < 0 || inventorySlot >= itemInventory.Length || itemInventory[inventorySlot] == null)
         {
             Debug.LogWarning("Slot de inventario inválido o vacío.");
@@ -53,21 +54,17 @@ public class PlayerInventory : MonoBehaviour
         int resourceID = itemIndex[inventorySlot];
         RESOURCES itemData = itemSO.itemTemplate[resourceID];
 
-        // 2. Verificar si el ítem es consumible
         if (itemData.isConsumable)
         {
-            // 3. Aplicar efectos: Llamar a los Singletons de Hambre y Sed
             if (Hunger.instance != null)
             {
                 Hunger.instance.AddHunger(itemData.hungerRestoration);
             }
             if (Thirst.instance != null)
             {
-                // Usamos la nueva función AddThirst en el script Thirst.cs
                 Thirst.instance.AddThirst(itemData.thirstRestoration);
             }
 
-            // 4. Eliminar el ítem del inventario
             itemInventory[inventorySlot] = null;
             itemIndex[inventorySlot] = 0;
 

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Items
   itemTemplate:
   - name: Water
-    objectSprite: {fileID: 0}
+    objectSprite: {fileID: 21300000, guid: d318573077662934a9df4fab2a86df84, type: 3}
     isConsumable: 1
     hungerRestoration: 0
     thirstRestoration: 7

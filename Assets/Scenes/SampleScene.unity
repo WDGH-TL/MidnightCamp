@@ -1993,6 +1993,7 @@ GameObject:
   - component: {fileID: 608583557}
   - component: {fileID: 608583559}
   - component: {fileID: 608583558}
+  - component: {fileID: 608583560}
   m_Layer: 5
   m_Name: InventoryUI
   m_TagString: Untagged
@@ -2054,6 +2055,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608583556}
   m_CullTransparentMesh: 1
+--- !u!114 &608583560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608583556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbca3574327a8bc4fbdc677259e0f9ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
+  nameList:
+  - {fileID: 2012035518}
+  - {fileID: 1725141431}
+  - {fileID: 1777147304}
+  - {fileID: 634622125}
+  - {fileID: 1004963157}
 --- !u!1 &634622123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,7 +2085,7 @@ GameObject:
   - component: {fileID: 634622126}
   - component: {fileID: 634622125}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2111,7 +2130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2556,6 +2575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInventory
   itemInventory: []
   itemIndex: 
+  inventoryUI: {fileID: 608583560}
 --- !u!4 &771763723
 Transform:
   m_ObjectHideFlags: 0
@@ -2898,7 +2918,7 @@ GameObject:
   - component: {fileID: 1004963158}
   - component: {fileID: 1004963157}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slot4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2943,7 +2963,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4396,7 +4416,7 @@ GameObject:
   - component: {fileID: 1725141432}
   - component: {fileID: 1725141431}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4441,7 +4461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4765,7 +4785,7 @@ GameObject:
   - component: {fileID: 1777147305}
   - component: {fileID: 1777147304}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4810,7 +4830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5295,7 +5315,7 @@ GameObject:
   - component: {fileID: 2012035519}
   - component: {fileID: 2012035518}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slot0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5340,7 +5360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
