@@ -2073,6 +2073,12 @@ MonoBehaviour:
   - {fileID: 1777147304}
   - {fileID: 634622125}
   - {fileID: 1004963157}
+  spriteList:
+  - {fileID: 1213183742}
+  - {fileID: 1995180780}
+  - {fileID: 1597768755}
+  - {fileID: 1714339887}
+  - {fileID: 1597848411}
 --- !u!1 &634622123
 GameObject:
   m_ObjectHideFlags: 0

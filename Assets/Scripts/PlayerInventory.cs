@@ -17,8 +17,8 @@ public class PlayerInventory : MonoBehaviour
 
     private void Start()
     {
-        itemInventory = new Items[10];
-        itemIndex = new int[10];
+        itemInventory = new Items[5];
+        itemIndex = new int[5];
     }
 
 
@@ -35,6 +35,7 @@ public class PlayerInventory : MonoBehaviour
                 itemIndex[i] = addedToIndex;
                 RESOURCES productData = itemInventory[i].itemTemplate[addedToIndex];
                 inventoryUI.drawNames(productData.name);
+                inventoryUI.drawSprites(productData.objectSprite);
                 Destroy(itemToAdd.gameObject);
                 SaveInventory();
                 break;
