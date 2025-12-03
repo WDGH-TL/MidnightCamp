@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    // Variables de Movimiento y Personaje
     public Rigidbody myPlayer;
     public float velocidad = 10f;
     public float runVelocidad = 10f;
@@ -15,14 +14,12 @@ public class Player : MonoBehaviour
     public float movementX;
     public float movementY;
 
-    // Variables de Salto y Suelo
     Vector3 velocity;
     public Transform haySuelo;
     public float radioDeSueloListener = 0.3f;
     public LayerMask suelo;
     public bool enElSuelo;
 
-    // Variables de Cámara y Agarre
     public Vector2 sensibilidadMouse;
     public Transform camara;
     public Transform grabbedObject;
@@ -47,23 +44,21 @@ public class Player : MonoBehaviour
 
         movement();
         mouseLook();
+        inventoryAccess();
+
 
         if (Physics.Raycast(camara.position, camara.forward, out RaycastHit hit, rayDistance))
         {
-            // Lógica de Raycast para interacción (E)
             if (Input.GetKeyDown(KeyCode.E))
             {
-                // Intentar obtener el componente ItemTemplate (Ítem de Inventario)
                 ItemTemplate itemTemplate = hit.transform.GetComponent<ItemTemplate>();
 
                 if (itemTemplate != null)
                 {
-                    // *** 1. RECUPERAR ITEM ***
                     RecogerItem(hit);
                 }
                 else
                 {
-                    // *** 2. LÓGICA DE AGARRE (si no es un item de inventario) ***
                     if (!grabbedObject)
                     {
                         if (hit.transform.CompareTag("Item"))
@@ -82,18 +77,15 @@ public class Player : MonoBehaviour
         Debug.DrawRay(camara.position, camara.forward * rayDistance, Color.cyan);
     }
 
-    // --- NUEVO MÉTODO DE INTERACCIÓN: RECOLECCIÓN DE INVENTARIO ---
     private void RecogerItem(RaycastHit hit)
     {
         ItemTemplate itemTemplate = hit.transform.GetComponent<ItemTemplate>();
 
         if (itemTemplate != null)
         {
-            // Llama a la función del inventario (PlayerInventory.cs)
             if (PlayerInventory.Instance != null)
             {
                 PlayerInventory.Instance.AddItemToInventory(hit);
-                // La destrucción del GameObject físico del ítem ocurre dentro de AddItemToInventory
                 Debug.Log($"Ítem {itemTemplate.itemName()} añadido al inventario.");
             }
             else
@@ -173,6 +165,14 @@ public class Player : MonoBehaviour
         if (moveY != 0)
         {
             camara.Rotate(-moveY * sensibilidadMouse.y, 0, 0);
+        }
+    }
+
+    void inventoryAccess()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("Accediendo al inventario");
         }
     }
 }
