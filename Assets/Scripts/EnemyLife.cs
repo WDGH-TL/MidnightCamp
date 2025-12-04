@@ -6,11 +6,9 @@ public class EnemyLife : MonoBehaviour
 {
     public Slider lifeSlider;
 
-
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-
-        if (collision.gameObject.CompareTag("Weapon"))
+        if (other.gameObject.CompareTag("Weapon"))
         {
             triggerDamage(25);
         }
@@ -25,7 +23,6 @@ public class EnemyLife : MonoBehaviour
 
     IEnumerator bajarVida(float damage)
     {
-
         float vidaObjetivo = lifeSlider.value - damage;
         if (vidaObjetivo < 0)
         {
@@ -34,7 +31,6 @@ public class EnemyLife : MonoBehaviour
 
         while (lifeSlider.value > vidaObjetivo)
         {
-
             lifeSlider.value -= 1f;
             yield return new WaitForSeconds(0.03f);
         }
@@ -43,10 +39,7 @@ public class EnemyLife : MonoBehaviour
 
         if (lifeSlider.value == 0)
         {
-
             // Destroy(gameObject);
-
         }
     }
-
 }

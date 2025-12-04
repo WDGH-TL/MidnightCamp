@@ -2313,7 +2313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5261113f074e758449dc10093d861bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLife
-  lifeSlider: {fileID: 0}
+  lifeSlider: {fileID: 683033931}
 --- !u!4 &518550775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4346273378914888047, guid: 2093022791c994eaa9be39d1b3972d9d, type: 3}
@@ -3374,7 +3374,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683033929}
   m_LocalRotation: {x: -0, y: 0.032358397, z: -0, w: 0.9994764}
-  m_LocalPosition: {x: 0, y: 0, z: -2.1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3385,8 +3385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 3.709, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.1, y: 5.99}
-  m_SizeDelta: {x: 25.0818, y: 1.0861}
+  m_AnchoredPosition: {x: 9.68, y: 5.99}
+  m_SizeDelta: {x: 35.5697, y: 1.0861}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &683033931
 MonoBehaviour:
@@ -3510,7 +3510,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1164328234615206, guid: cdebefa9cede542489ec77a0e0261343, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2039200993}
   m_SourcePrefab: {fileID: 100100000, guid: cdebefa9cede542489ec77a0e0261343, type: 3}
 --- !u!1001 &708036171
 PrefabInstance:
@@ -6346,7 +6349,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382588904}
   m_LocalRotation: {x: -0, y: -0.028998092, z: -0, w: 0.99957955}
-  m_LocalPosition: {x: 0, y: 0, z: 0.55}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6354,8 +6357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -3.323, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.62, y: -0.0595}
-  m_SizeDelta: {x: 6.6969, y: -0.1189}
+  m_AnchoredPosition: {x: -0.5179, y: -0.0595}
+  m_SizeDelta: {x: -0.0212, y: -0.1189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382588906
 MonoBehaviour:
@@ -9554,11 +9557,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+--- !u!1 &2039200988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1164328234615206, guid: cdebefa9cede542489ec77a0e0261343, type: 3}
+  m_PrefabInstance: {fileID: 698594230}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2039200989 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4045817768345548, guid: cdebefa9cede542489ec77a0e0261343, type: 3}
   m_PrefabInstance: {fileID: 698594230}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2039200993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039200988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.66208, y: 0.078323215, z: 0.18837821}
+  m_Center: {x: 0.030605376, y: -0.0019071512, z: -0.201261}
 --- !u!1001 &2059258363
 PrefabInstance:
   m_ObjectHideFlags: 0
