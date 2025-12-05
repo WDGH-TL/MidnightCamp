@@ -1,9 +1,12 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class InventoryUse : MonoBehaviour
 {
     public GameObject menuDesplegable;
     public GameObject menuCrafteo;
+    public PlayerInventory restoration;
 
 
     public void Start()
@@ -16,6 +19,12 @@ public class InventoryUse : MonoBehaviour
     {
         Debug.Log("Interacting with an item");
         showMenu();
+    }
+
+    public void consume()
+    {
+        Debug.Log("Item is consumed");
+        
     }
 
     public void closeTab()
@@ -52,5 +61,11 @@ public class InventoryUse : MonoBehaviour
             menuCrafteo.SetActive(true);
         }
 
+    }
+
+    public void AddHungerOrThirst()
+    {
+        Debug.Log("ConsumingItem");
+        //restoration.ConsumeItem();
     }
 }

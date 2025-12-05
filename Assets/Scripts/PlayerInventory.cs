@@ -8,6 +8,7 @@ public class PlayerInventory : MonoBehaviour
     public Items[] itemInventory;
     public int[] itemIndex;
     public InventoryUI inventoryUI;
+    public DropDown craftingList;
 
 
     private void Awake()
@@ -34,6 +35,7 @@ public class PlayerInventory : MonoBehaviour
                 itemInventory[i] = itemToAdd.itemText;
                 itemIndex[i] = addedToIndex;
                 RESOURCES productData = itemInventory[i].itemTemplate[addedToIndex];
+                craftingList.fill(productData.name);
                 inventoryUI.drawNames(productData.name);
                 inventoryUI.drawSprites(productData.objectSprite);
                 Destroy(itemToAdd.gameObject);
