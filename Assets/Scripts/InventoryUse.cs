@@ -19,12 +19,6 @@ public class InventoryUse : MonoBehaviour
         showMenu();
     }
 
-    public void consume()
-    {
-        Debug.Log("Item is consumed");
-        
-    }
-
     public void closeTab()
     {
         HideMenu();
@@ -63,7 +57,25 @@ public class InventoryUse : MonoBehaviour
     {
         Debug.Log("ConsumingItem");
         //restoration.ConsumeItem();
+        UseItem();
     }
+    public void UseItem()
+    {
 
+        int indexSlot = restoration.SelectedSlotIndex;
+
+        if (indexSlot != -1)
+        {
+            Debug.Log($"Usando ítem del slot: {indexSlot}");
+            restoration.ConsumeItem(indexSlot);
+
+
+            restoration.SelectedSlotIndex = -1;
+        }
+        else
+        {
+            Debug.LogWarning("Ningún ítem seleccionado.");
+        }
+    }
 
 }

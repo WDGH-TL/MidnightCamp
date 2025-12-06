@@ -9,6 +9,7 @@ public class PlayerInventory : MonoBehaviour
     public int[] itemIndex;
     public InventoryUI inventoryUI;
     public DropDown craftingList;
+    public int SelectedSlotIndex { get; set; } = -1;
 
 
     private void Awake()
@@ -70,7 +71,7 @@ public class PlayerInventory : MonoBehaviour
 
             itemInventory[inventorySlot] = null;
             itemIndex[inventorySlot] = 0;
-
+            inventoryUI.RemoveItemFromSlot(inventorySlot);
             SaveInventory();
             Debug.Log($"Consumido: {itemData.name}. Restauró Hambre y Sed.");
             return true;
@@ -130,6 +131,12 @@ public class PlayerInventory : MonoBehaviour
         }
 
         return itemValue;
+
+    }
+    public void SaveSlotClick(int slotIndex)
+    {
+
+        this.SelectedSlotIndex = slotIndex;
 
     }
 }

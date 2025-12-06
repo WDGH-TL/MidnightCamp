@@ -27,8 +27,7 @@ public class SlotClick : MonoBehaviour
         Debug.Log("item clicked: " + tmp.text);
         itemName = tmp.text;
         itemIndex = slotIndex;
-        restoration.GetHungerValue(slotIndex);
-        restoration.ConsumeItem(slotIndex);
+        restoration.SaveSlotClick(slotIndex);
         nameToGet.text = itemName;
     }
 
