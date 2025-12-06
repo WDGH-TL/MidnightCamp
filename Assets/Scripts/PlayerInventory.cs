@@ -9,7 +9,7 @@ public class PlayerInventory : MonoBehaviour
     public int[] itemIndex;
     public InventoryUI inventoryUI;
     public DropDown craftingList;
-    public int SelectedSlotIndex { get; set; } = -1;
+    public int selectedSlotIndex { get; set; } = -1;
 
 
     private void Awake()
@@ -136,7 +136,7 @@ public class PlayerInventory : MonoBehaviour
     public void SaveSlotClick(int slotIndex)
     {
 
-        this.SelectedSlotIndex = slotIndex;
+        this.selectedSlotIndex = slotIndex;
 
     }
 }

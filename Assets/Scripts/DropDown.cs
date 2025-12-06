@@ -4,13 +4,14 @@ using TMPro;
 
 public class DropDown : MonoBehaviour
 {
-
+    public string selectedDropDown { get; set; } = "";
     public TMP_Dropdown dropdownCraft;
 
     public void selectOption()
     {
         int index = dropdownCraft.value;
         string selectedOption = dropdownCraft.options[index].text;
+        saveDropdownValue(selectedOption);
     }
 
     public void fill(string newItem)
@@ -47,10 +48,10 @@ public class DropDown : MonoBehaviour
         return -1;
     }
 
-
-    public string getSelectedOption()
+    public void saveDropdownValue(string Name)
     {
-        int index = dropdownCraft.value;
-        return dropdownCraft.options[index].text;
+
+        this.selectedDropDown = Name;
+
     }
 }

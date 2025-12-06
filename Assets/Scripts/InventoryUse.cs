@@ -7,6 +7,7 @@ public class InventoryUse : MonoBehaviour
     public GameObject menuDesplegable;
     public GameObject menuCrafteo;
     public PlayerInventory restoration;
+    public CraftingManager callCrafting;
 
     public void Start()
     {
@@ -31,6 +32,12 @@ public class InventoryUse : MonoBehaviour
             menuDesplegable.SetActive(true);
 
         }
+
+    }
+
+    public void craft()
+    {
+        callCrafting.crafting();
 
     }
 
@@ -62,7 +69,7 @@ public class InventoryUse : MonoBehaviour
     public void UseItem()
     {
 
-        int indexSlot = restoration.SelectedSlotIndex;
+        int indexSlot = restoration.selectedSlotIndex;
 
         if (indexSlot != -1)
         {
@@ -70,7 +77,7 @@ public class InventoryUse : MonoBehaviour
             restoration.ConsumeItem(indexSlot);
 
 
-            restoration.SelectedSlotIndex = -1;
+            restoration.selectedSlotIndex = -1;
         }
         else
         {
