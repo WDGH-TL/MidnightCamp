@@ -805,7 +805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryUse
   menuDesplegable: {fileID: 542671903}
   menuCrafteo: {fileID: 1559832496}
-  restoration: {fileID: 0}
+  restoration: {fileID: 771763722}
 --- !u!1 &121641588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,7 +3919,6 @@ GameObject:
   - component: {fileID: 542671904}
   - component: {fileID: 542671907}
   - component: {fileID: 542671906}
-  - component: {fileID: 542671905}
   m_Layer: 5
   m_Name: itemInteractionUI
   m_TagString: Untagged
@@ -3947,30 +3946,6 @@ RectTransform:
   m_AnchoredPosition: {x: -20, y: 180}
   m_SizeDelta: {x: 582.5417, y: 55}
   m_Pivot: {x: 0.5, y: 0}
---- !u!114 &542671905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542671903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbca3574327a8bc4fbdc677259e0f9ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
-  nameList:
-  - {fileID: 2012035518}
-  - {fileID: 1725141431}
-  - {fileID: 1777147304}
-  - {fileID: 634622125}
-  - {fileID: 1004963157}
-  spriteList:
-  - {fileID: 1213183742}
-  - {fileID: 1995180780}
-  - {fileID: 1597768755}
-  - {fileID: 1714339887}
-  - {fileID: 1597848411}
 --- !u!114 &542671906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7906,6 +7881,7 @@ GameObject:
   - component: {fileID: 1213183743}
   - component: {fileID: 1213183742}
   - component: {fileID: 1213183744}
+  - component: {fileID: 1213183745}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -8027,6 +8003,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1213183745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213183740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6fc58b3c58d1a409d656f4f0c81046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotClick
+  slotIndex: 0
+  tmp: {fileID: 2012035518}
+  nameToGet: {fileID: 1999846473}
 --- !u!1 &1234698761
 GameObject:
   m_ObjectHideFlags: 0
@@ -9690,6 +9681,7 @@ GameObject:
   - component: {fileID: 1597768756}
   - component: {fileID: 1597768755}
   - component: {fileID: 1597768757}
+  - component: {fileID: 1597768758}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -9811,6 +9803,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1597768758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597768753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6fc58b3c58d1a409d656f4f0c81046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotClick
+  slotIndex: 2
+  tmp: {fileID: 1777147304}
+  nameToGet: {fileID: 1999846473}
 --- !u!1 &1597848409
 GameObject:
   m_ObjectHideFlags: 0
@@ -9823,6 +9830,7 @@ GameObject:
   - component: {fileID: 1597848412}
   - component: {fileID: 1597848411}
   - component: {fileID: 1597848413}
+  - component: {fileID: 1597848414}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -9944,6 +9952,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1597848414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597848409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6fc58b3c58d1a409d656f4f0c81046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotClick
+  slotIndex: 4
+  tmp: {fileID: 1004963157}
+  nameToGet: {fileID: 1999846473}
 --- !u!1001 &1599236920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10509,6 +10532,7 @@ GameObject:
   - component: {fileID: 1714339888}
   - component: {fileID: 1714339887}
   - component: {fileID: 1714339889}
+  - component: {fileID: 1714339890}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -10630,6 +10654,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1714339890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714339885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6fc58b3c58d1a409d656f4f0c81046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotClick
+  slotIndex: 3
+  tmp: {fileID: 634622125}
+  nameToGet: {fileID: 1999846473}
 --- !u!4 &1719877656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
@@ -12091,6 +12130,7 @@ GameObject:
   - component: {fileID: 1995180781}
   - component: {fileID: 1995180780}
   - component: {fileID: 1995180782}
+  - component: {fileID: 1995180783}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -12212,6 +12252,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1995180783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995180778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6fc58b3c58d1a409d656f4f0c81046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotClick
+  slotIndex: 1
+  tmp: {fileID: 1725141431}
+  nameToGet: {fileID: 1999846473}
 --- !u!1 &1996078802
 GameObject:
   m_ObjectHideFlags: 0

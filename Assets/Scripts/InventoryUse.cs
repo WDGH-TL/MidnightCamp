@@ -8,7 +8,6 @@ public class InventoryUse : MonoBehaviour
     public GameObject menuCrafteo;
     public PlayerInventory restoration;
 
-
     public void Start()
     {
         menuDesplegable.SetActive(false);
@@ -37,7 +36,6 @@ public class InventoryUse : MonoBehaviour
 
         if (menuDesplegable != null)
         {
-
             menuDesplegable.SetActive(true);
 
         }
