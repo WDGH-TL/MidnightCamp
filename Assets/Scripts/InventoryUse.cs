@@ -16,7 +16,6 @@ public class InventoryUse : MonoBehaviour
 
     public void interact()
     {
-        Debug.Log("Interacting with an item");
         showMenu();
     }
 
@@ -28,7 +27,6 @@ public class InventoryUse : MonoBehaviour
 
     public void closeTab()
     {
-        Debug.Log("Closing Tab");
         HideMenu();
     }
     public void showMenu()

@@ -11,6 +11,7 @@ public class SlotClick : MonoBehaviour
     public TextMeshProUGUI nameToGet;
     private string itemName;
     private int itemIndex;
+    public PlayerInventory restoration;
 
 
     void Start()
@@ -26,6 +27,8 @@ public class SlotClick : MonoBehaviour
         Debug.Log("item clicked: " + tmp.text);
         itemName = tmp.text;
         itemIndex = slotIndex;
+        restoration.GetHungerValue(slotIndex);
+        restoration.ConsumeItem(slotIndex);
         nameToGet.text = itemName;
     }
 

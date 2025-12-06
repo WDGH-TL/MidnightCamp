@@ -111,4 +111,25 @@ public class PlayerInventory : MonoBehaviour
             SaveInventory();
         }
     }
+    public float GetHungerValue(int index)
+    {
+        float itemValue = 0;
+        Items item = itemInventory[index];
+        int productIndex = itemIndex[index];
+
+        if (productIndex >= 0 && productIndex < item.itemTemplate.Length)
+        {
+            RESOURCES productData = item.itemTemplate[productIndex];
+
+            Debug.Log("Item found (SO): " + item.name);
+            Debug.Log("Product Name: " + productData.name);
+            Debug.Log("Product Value: " + productData.hungerRestoration);
+            Debug.Log("Product value type: " + productData.GetType());
+            itemValue = productData.hungerRestoration;
+
+        }
+
+        return itemValue;
+
+    }
 }

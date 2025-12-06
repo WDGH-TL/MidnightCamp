@@ -54,14 +54,12 @@ public class InventoryUI : MonoBehaviour
 
             if (tmp != null)
             {
-                tmp.text = string.Empty; // Usa string.Empty o ""
+                tmp.text = string.Empty;
 
-                Debug.Log($"Slot {slotIndex} de la UI vaciado.");
             }
             Image spriteComponent = spriteList[slotIndex];
             if (spriteComponent != null)
             {
-                // 1. Borra la imagen del slot
                 spriteComponent.sprite = null;
                 spriteComponent.color = Color.black;
 

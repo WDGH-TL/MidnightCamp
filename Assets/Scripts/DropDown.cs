@@ -11,12 +11,10 @@ public class DropDown : MonoBehaviour
     {
         int index = dropdownCraft.value;
         string selectedOption = dropdownCraft.options[index].text;
-        Debug.Log("Seleccionaste el índice: " + index + " " + selectedOption);
     }
 
     public void fill(string newItem)
     {
-        Debug.Log("Adding item to dropdown: " + newItem);
         dropdownCraft.options.Add(item: new TMP_Dropdown.OptionData(text: newItem));
         dropdownCraft.RefreshShownValue();
     }

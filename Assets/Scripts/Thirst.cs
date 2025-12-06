@@ -48,7 +48,6 @@ public class Thirst : MonoBehaviour
         }
     }
 
-    // --- FUNCIÓN PARA AÑADIR/RESTAURAR SED (NUEVA) ---
     public void AddThirst(float amount)
     {
         currentThirst += amount;
