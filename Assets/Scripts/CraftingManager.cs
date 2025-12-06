@@ -5,6 +5,7 @@ public class CraftingManager : MonoBehaviour
     public int slotIndex;
     public PlayerInventory inventory;
     public DropDown dropDown;
+    public Items scriptableObjects;
 
     public void crafting()
     {
