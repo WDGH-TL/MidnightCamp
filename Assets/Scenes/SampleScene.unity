@@ -13206,6 +13206,8 @@ MonoBehaviour:
   inventory: {fileID: 771763722}
   dropDown: {fileID: 221634071}
   scriptableObjects: {fileID: 11400000, guid: 80b6a2544f012304790851f0f3645dda, type: 2}
+  inventoryUI: {fileID: 608583560}
+  scriptableResult: 0
 --- !u!4 &2035091997
 Transform:
   m_ObjectHideFlags: 0

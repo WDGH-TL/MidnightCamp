@@ -20,9 +20,8 @@ public class DropDown : MonoBehaviour
         dropdownCraft.RefreshShownValue();
     }
 
-    public void delete()
+    public void delete(int index)
     {
-        int index = 0;
         dropdownCraft.options.RemoveAt(index);
 
         if (dropdownCraft.value == index)

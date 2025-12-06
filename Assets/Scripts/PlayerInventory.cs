@@ -50,7 +50,6 @@ public class PlayerInventory : MonoBehaviour
     {
         if (inventorySlot < 0 || inventorySlot >= itemInventory.Length || itemInventory[inventorySlot] == null)
         {
-            Debug.LogWarning("Slot de inventario inválido o vacío.");
             return false;
         }
 
@@ -122,10 +121,6 @@ public class PlayerInventory : MonoBehaviour
         {
             RESOURCES productData = item.itemTemplate[productIndex];
 
-            Debug.Log("Item found (SO): " + item.name);
-            Debug.Log("Product Name: " + productData.name);
-            Debug.Log("Product Value: " + productData.hungerRestoration);
-            Debug.Log("Product value type: " + productData.GetType());
             itemValue = productData.hungerRestoration;
 
         }
@@ -138,5 +133,85 @@ public class PlayerInventory : MonoBehaviour
 
         this.selectedSlotIndex = slotIndex;
 
+    }
+    public string findNameItemInventory(int index)
+    {
+        string itemName = "";
+        Items item = itemInventory[index];
+        int productIndex = itemIndex[index];
+
+        if (productIndex >= 0 && productIndex < item.itemTemplate.Length)
+        {
+            RESOURCES productData = item.itemTemplate[productIndex];
+
+            itemName = productData.name;
+        }
+        return itemName;
+    }
+
+    public int findItemInventoryByName(string itemName)
+    {
+        for (int i = 0; i < itemInventory.Length; i++)
+        {
+            Items item = itemInventory[i];
+
+            if (item != null)
+            {
+                int productIndex = itemIndex[i];
+
+                if (productIndex >= 0 && productIndex < item.itemTemplate.Length)
+                {
+                    RESOURCES productData = item.itemTemplate[productIndex];
+
+                    if (productData.name.Equals(itemName, System.StringComparison.OrdinalIgnoreCase))
+                    {
+                        Debug.Log($"Ítem '{itemName}' encontrado en el slot índice: {i}");
+                        return i;
+                    }
+                }
+            }
+        }
+
+        Debug.LogWarning($"Ítem '{itemName}' no encontrado en el inventario.");
+        return -1;
+    }
+    public string whoCraft(int index)
+    {
+        string nameItem = "";
+
+        Items item = itemInventory[index];
+        int productIndex = itemIndex[index];
+
+        if (productIndex >= 0 && productIndex < item.itemTemplate.Length)
+        {
+            RESOURCES productData = item.itemTemplate[productIndex];
+
+            nameItem = productData.nameWithCraft;
+
+
+        }
+
+        return nameItem;
+
+    }
+    public bool AddItemToInventoryInternal(Items item, int index)
+    {
+        for (int i = 0; i < itemInventory.Length; i++)
+        {
+            if (itemInventory[i] == null)
+            {
+                itemInventory[i] = item;
+                itemIndex[i] = index;
+
+
+                RESOURCES productData = item.itemTemplate[index];
+                inventoryUI.drawNames(productData.name);
+                inventoryUI.drawSprites(productData.objectSprite);
+
+                SaveInventory();
+                return true;
+            }
+        }
+        return false;
     }
 }
