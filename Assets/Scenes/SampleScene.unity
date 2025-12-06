@@ -8018,6 +8018,7 @@ MonoBehaviour:
   slotIndex: 0
   tmp: {fileID: 2012035518}
   nameToGet: {fileID: 1999846473}
+  remove: {fileID: 771763722}
 --- !u!1 &1234698761
 GameObject:
   m_ObjectHideFlags: 0
@@ -9818,6 +9819,7 @@ MonoBehaviour:
   slotIndex: 2
   tmp: {fileID: 1777147304}
   nameToGet: {fileID: 1999846473}
+  remove: {fileID: 0}
 --- !u!1 &1597848409
 GameObject:
   m_ObjectHideFlags: 0
@@ -9967,6 +9969,7 @@ MonoBehaviour:
   slotIndex: 4
   tmp: {fileID: 1004963157}
   nameToGet: {fileID: 1999846473}
+  remove: {fileID: 0}
 --- !u!1001 &1599236920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10669,6 +10672,7 @@ MonoBehaviour:
   slotIndex: 3
   tmp: {fileID: 634622125}
   nameToGet: {fileID: 1999846473}
+  remove: {fileID: 0}
 --- !u!4 &1719877656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
@@ -12267,6 +12271,7 @@ MonoBehaviour:
   slotIndex: 1
   tmp: {fileID: 1725141431}
   nameToGet: {fileID: 1999846473}
+  remove: {fileID: 0}
 --- !u!1 &1996078802
 GameObject:
   m_ObjectHideFlags: 0

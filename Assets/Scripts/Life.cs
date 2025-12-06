@@ -7,6 +7,7 @@ public class Life : MonoBehaviour
     public Slider lifeSlider;
 
 
+
     void OnCollisionEnter(Collision collision)
     {
 

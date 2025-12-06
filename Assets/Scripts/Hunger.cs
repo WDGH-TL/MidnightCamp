@@ -54,4 +54,23 @@ public class Hunger : MonoBehaviour
         currentHunger += amount;
         currentHunger = Mathf.Clamp(currentHunger, 0, maxHunger);
     }
+    IEnumerator recover(float amount)
+    {
+
+        float vidaObjetivo = hungerSlider.value + amount;
+        if (vidaObjetivo < 0)
+        {
+            vidaObjetivo = 0;
+        }
+
+        while (hungerSlider.value > vidaObjetivo)
+        {
+
+            hungerSlider.value += 1f;
+            yield return new WaitForSeconds(0.03f);
+        }
+
+        hungerSlider.value = vidaObjetivo;
+
+    }
 }

@@ -102,4 +102,13 @@ public class PlayerInventory : MonoBehaviour
         PlayerPrefs.SetString("PlayerInventoryData", serializedInventory);
         PlayerPrefs.Save();
     }
+    public void RemoveItem(int slotIndex)
+    {
+        if (slotIndex >= 0 && slotIndex < itemInventory.Length)
+        {
+            itemInventory[slotIndex] = null;
+            itemIndex[slotIndex] = 0;
+            SaveInventory();
+        }
+    }
 }

@@ -54,4 +54,23 @@ public class Thirst : MonoBehaviour
         currentThirst += amount;
         currentThirst = Mathf.Clamp(currentThirst, 0, maxThirst);
     }
+    IEnumerator recover(float amount)
+    {
+
+        float vidaObjetivo = thirstSlider.value + amount;
+        if (vidaObjetivo < 0)
+        {
+            vidaObjetivo = 0;
+        }
+
+        while (thirstSlider.value > vidaObjetivo)
+        {
+
+            thirstSlider.value += 1f;
+            yield return new WaitForSeconds(0.03f);
+        }
+
+        thirstSlider.value = vidaObjetivo;
+
+    }
 }
