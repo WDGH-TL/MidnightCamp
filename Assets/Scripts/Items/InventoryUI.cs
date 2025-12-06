@@ -45,4 +45,31 @@ public class InventoryUI : MonoBehaviour
         }
         return false;
     }
+    public void RemoveItemFromSlot(int slotIndex)
+    {
+
+        if (slotIndex >= 0 && slotIndex < nameList.Count)
+        {
+            TextMeshProUGUI tmp = nameList[slotIndex];
+
+            if (tmp != null)
+            {
+                tmp.text = string.Empty; // Usa string.Empty o ""
+
+                Debug.Log($"Slot {slotIndex} de la UI vaciado.");
+            }
+            Image spriteComponent = spriteList[slotIndex];
+            if (spriteComponent != null)
+            {
+                // 1. Borra la imagen del slot
+                spriteComponent.sprite = null;
+                spriteComponent.color = Color.black;
+
+            }
+        }
+        else
+        {
+            Debug.LogError($"Índice de slot ({slotIndex}) fuera de rango en listaDeTextos.");
+        }
+    }
 }
