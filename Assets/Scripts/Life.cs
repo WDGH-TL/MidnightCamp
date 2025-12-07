@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Life : MonoBehaviour
 {
     public Slider lifeSlider;
-
+    public SceneChanger sceneManager;
 
 
     void OnCollisionEnter(Collision collision)
@@ -42,11 +42,9 @@ public class Life : MonoBehaviour
 
         lifeSlider.value = vidaObjetivo;
 
-        if (lifeSlider.value == 0)
+        if (lifeSlider.value <= 0)
         {
-
-            // Destroy(gameObject);
-
+            sceneManager.eaten();
         }
     }
 
