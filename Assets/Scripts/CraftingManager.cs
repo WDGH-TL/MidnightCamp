@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CraftingManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class CraftingManager : MonoBehaviour
     public Items scriptableObjects;
     public InventoryUI inventoryUI;
     public int scriptableResult;
+    public TextMeshProUGUI messageCraft;
+    public GameObject craftingClue;
 
     public void crafting()
     {
@@ -37,8 +40,17 @@ public class CraftingManager : MonoBehaviour
         }
         else
         {
+            craftingClue.SetActive(true);
+            messageCraft.text = "No, esto no se puede craftear...";
+            Invoke("clueHide", 2f);
+        }
+    }
 
-            // messageCraft.text = "esto no se puede craftear...";
+    void clueHide()
+    {
+        if(craftingClue != null)
+        {
+            craftingClue.SetActive(false);
         }
     }
 }
