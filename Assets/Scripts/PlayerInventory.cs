@@ -9,6 +9,7 @@ public class PlayerInventory : MonoBehaviour
     public int[] itemIndex;
     public InventoryUI inventoryUI;
     public DropDown craftingList;
+    public AudioSource consumeSFX;
     public int selectedSlotIndex { get; set; } = -1;
 
 
@@ -21,6 +22,7 @@ public class PlayerInventory : MonoBehaviour
     {
         itemInventory = new Items[5];
         itemIndex = new int[5];
+        consumeSFX = GetComponent<AudioSource>();
     }
 
 
@@ -61,10 +63,12 @@ public class PlayerInventory : MonoBehaviour
         {
             if (Hunger.instance != null)
             {
+                consumeSFX.Play();
                 Hunger.instance.AddHunger(itemData.hungerRestoration);
             }
             if (Thirst.instance != null)
             {
+                consumeSFX.Play();
                 Thirst.instance.AddThirst(itemData.thirstRestoration);
             }
 

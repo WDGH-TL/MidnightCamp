@@ -26,13 +26,11 @@ public class InventoryUse : MonoBehaviour
     }
     public void showMenu()
     {
-
         if (menuDesplegable != null)
         {
+            Debug.Log(restoration.selectedSlotIndex);
             menuDesplegable.SetActive(true);
-
         }
-
     }
 
     public void craft()
@@ -62,8 +60,6 @@ public class InventoryUse : MonoBehaviour
 
     public void AddHungerOrThirst()
     {
-        Debug.Log("ConsumingItem");
-        //restoration.ConsumeItem();
         UseItem();
     }
     public void UseItem()
@@ -73,15 +69,10 @@ public class InventoryUse : MonoBehaviour
 
         if (indexSlot != -1)
         {
-            Debug.Log($"Usando ítem del slot: {indexSlot}");
             restoration.ConsumeItem(indexSlot);
 
 
             restoration.selectedSlotIndex = -1;
-        }
-        else
-        {
-            Debug.LogWarning("Ningún ítem seleccionado.");
         }
     }
 

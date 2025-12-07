@@ -65,9 +65,5 @@ public class InventoryUI : MonoBehaviour
 
             }
         }
-        else
-        {
-            Debug.LogError($"Índice de slot ({slotIndex}) fuera de rango en listaDeTextos.");
-        }
     }
 }

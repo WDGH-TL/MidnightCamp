@@ -23,8 +23,6 @@ public class SlotClick : MonoBehaviour
 
     void OnSlotClicked()
     {
-        Debug.Log("Slot clicked: " + slotIndex);
-        Debug.Log("item clicked: " + tmp.text);
         itemName = tmp.text;
         itemIndex = slotIndex;
         restoration.SaveSlotClick(slotIndex);
