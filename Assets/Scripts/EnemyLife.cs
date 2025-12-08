@@ -39,7 +39,7 @@ public class EnemyLife : MonoBehaviour
 
         if (lifeSlider.value == 0)
         {
-            // Destroy(gameObject);
+             Destroy(gameObject);
         }
     }
 }

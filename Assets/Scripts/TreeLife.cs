@@ -37,6 +37,7 @@ public class TreeLife : MonoBehaviour
 
         if (lifeSlider.value == 0)
         {
+
              //Destroy(gameObject);
         }
     }
