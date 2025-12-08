@@ -17,6 +17,18 @@ public class AssignPrefab : MonoBehaviour
             case "Crowbar":
                 prefab = prefab1;
                 break;
+            case "Water":
+                prefab = prefab2;
+                break;
+            case "Apple":
+                prefab = prefab3;
+                break;
+            case "Wood":
+                prefab = prefab4;
+                break;
+            case "Rock":
+                prefab = prefab5;
+                break;
         }
 
         return prefab;

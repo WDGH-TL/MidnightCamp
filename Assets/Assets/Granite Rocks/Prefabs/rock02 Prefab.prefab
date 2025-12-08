@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3884404486478618647}
   - component: {fileID: 726723069240475674}
+  - component: {fileID: 8354163626674205535}
+  - component: {fileID: 8719685324421573689}
+  - component: {fileID: 3212684825907443288}
   m_Layer: 0
   m_Name: rock02 Prefab
   m_TagString: Untagged
@@ -24,16 +27,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8739980824474359234}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 713130929621821489}
   - {fileID: 3514701496357063887}
   - {fileID: 3163565669231889065}
   - {fileID: 3207825465182944603}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &726723069240475674
 LODGroup:
@@ -66,11 +70,73 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4381809607990937140}
   m_Enabled: 1
+--- !u!65 &8354163626674205535
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739980824474359234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8886508, y: 0.64304215, z: 1}
+  m_Center: {x: 0.009778228, y: -0.0033423519, z: 0}
+--- !u!54 &8719685324421573689
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739980824474359234}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3212684825907443288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739980824474359234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd951d01deb4fe428f49fcb305d9f9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemTemplate
+  itemText: {fileID: 11400000, guid: f554c11d494291e4d9176e8bb2420718, type: 2}
 --- !u!1001 &1040109069593907162
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3884404486478618647}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d23e2c399fa8bac47908afbc009b48bd, type: 3}
@@ -122,6 +188,9 @@ PrefabInstance:
       value: granite rock02_lod0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d23e2c399fa8bac47908afbc009b48bd, type: 3}
 --- !u!4 &713130929621821489 stripped
 Transform:
@@ -138,6 +207,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3884404486478618647}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2680cb5a208badb4b8a2e460f1dad94a, type: 3}
@@ -189,6 +259,9 @@ PrefabInstance:
       value: granite rock02_lod3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2680cb5a208badb4b8a2e460f1dad94a, type: 3}
 --- !u!4 &3207825465182944603 stripped
 Transform:
@@ -205,6 +278,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3884404486478618647}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f83bf2fa323f6ae42870c35f1bc7c024, type: 3}
@@ -256,6 +330,9 @@ PrefabInstance:
       value: granite rock02_lod2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f83bf2fa323f6ae42870c35f1bc7c024, type: 3}
 --- !u!4 &3163565669231889065 stripped
 Transform:
@@ -272,6 +349,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3884404486478618647}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 39b1b8511ee9855409de08b2e4dbbf1e, type: 3}
@@ -323,14 +401,17 @@ PrefabInstance:
       value: granite rock02_lod1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39b1b8511ee9855409de08b2e4dbbf1e, type: 3}
---- !u!4 &3514701496357063887 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39b1b8511ee9855409de08b2e4dbbf1e, type: 3}
-  m_PrefabInstance: {fileID: 3984563201379986212}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &2345696728180225952 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 39b1b8511ee9855409de08b2e4dbbf1e, type: 3}
+  m_PrefabInstance: {fileID: 3984563201379986212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3514701496357063887 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39b1b8511ee9855409de08b2e4dbbf1e, type: 3}
   m_PrefabInstance: {fileID: 3984563201379986212}
   m_PrefabAsset: {fileID: 0}
