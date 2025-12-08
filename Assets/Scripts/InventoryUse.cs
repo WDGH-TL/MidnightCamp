@@ -28,7 +28,7 @@ public class InventoryUse : MonoBehaviour
     {
         if (menuDesplegable != null)
         {
-            Debug.Log(restoration.selectedSlotIndex);
+            
             menuDesplegable.SetActive(true);
         }
     }

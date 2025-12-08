@@ -155,13 +155,13 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &13261007 stripped
-Transform:
+--- !u!224 &13261007 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1751571246}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &15065363 stripped
-Transform:
+--- !u!224 &15065363 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 271049806}
   m_PrefabAsset: {fileID: 0}
@@ -422,13 +422,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75221802}
   m_CullTransparentMesh: 1
---- !u!4 &77205806 stripped
-Transform:
+--- !u!224 &77205806 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1884698736}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &85566454 stripped
-Transform:
+--- !u!224 &85566454 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 2059258363}
   m_PrefabAsset: {fileID: 0}
@@ -623,6 +623,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (14)
@@ -641,11 +653,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -677,6 +689,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1108,8 +1128,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143281617}
   m_CullTransparentMesh: 1
---- !u!4 &149287680 stripped
-Transform:
+--- !u!224 &149287680 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1062836620}
   m_PrefabAsset: {fileID: 0}
@@ -1251,6 +1271,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (8)
@@ -1269,11 +1301,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1307,13 +1339,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &178788919 stripped
-Transform:
+--- !u!224 &178788919 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1183673405}
   m_PrefabAsset: {fileID: 0}
@@ -1489,6 +1529,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (11)
@@ -1507,11 +1559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1545,6 +1597,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1558,6 +1618,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5
@@ -1576,11 +1648,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.122555
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1612,6 +1684,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740491774980127362, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071190445532360552, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071190445532360552, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071190445532360552, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071190445532360552, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7071190445532360552, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628878898244863731, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1782,18 +1890,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DropDown
   dropdownCraft: {fileID: 221634068}
---- !u!4 &225220320 stripped
-Transform:
+--- !u!224 &225220320 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 2025739147}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &226150136 stripped
-Transform:
+--- !u!224 &226150136 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1210325944}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &226523436 stripped
-Transform:
+--- !u!224 &226523436 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 954482139}
   m_PrefabAsset: {fileID: 0}
@@ -1895,6 +2003,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (3)
@@ -1913,11 +2033,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1951,13 +2071,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &284849745 stripped
-Transform:
+--- !u!224 &284849745 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1828385940}
   m_PrefabAsset: {fileID: 0}
@@ -2652,6 +2780,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (2)
@@ -2670,11 +2810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2708,6 +2848,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2721,6 +2869,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (1)
@@ -2739,11 +2899,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.56
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1333996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2777,13 +2937,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &390518580 stripped
-Transform:
+--- !u!224 &390518580 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 2102397499}
   m_PrefabAsset: {fileID: 0}
@@ -2795,6 +2963,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (18)
@@ -2813,11 +2993,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 117.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2851,18 +3031,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &407919544 stripped
-Transform:
+--- !u!224 &407919544 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 858590786}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &430268010 stripped
-Transform:
+--- !u!224 &430268010 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1841646321}
   m_PrefabAsset: {fileID: 0}
@@ -2874,6 +3062,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (3)
@@ -2892,11 +3092,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 116.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2930,13 +3130,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &456790530 stripped
-Transform:
+--- !u!224 &456790530 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 215739281}
   m_PrefabAsset: {fileID: 0}
@@ -3307,6 +3515,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (7)
@@ -3325,11 +3545,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3361,6 +3581,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3440,8 +3668,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489126802}
   m_CullTransparentMesh: 1
---- !u!4 &493653099 stripped
-Transform:
+--- !u!224 &493653099 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 435760214}
   m_PrefabAsset: {fileID: 0}
@@ -3527,8 +3755,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1316491087}
   m_SourcePrefab: {fileID: 100100000, guid: 094627802cc8b7849aed1eb1a64bbe75, type: 3}
---- !u!4 &508036852 stripped
-Transform:
+--- !u!224 &508036852 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1761839114}
   m_PrefabAsset: {fileID: 0}
@@ -4236,6 +4464,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (12)
@@ -4254,11 +4494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4290,6 +4530,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4671,13 +4919,13 @@ MonoBehaviour:
   - {fileID: 1597768755}
   - {fileID: 1714339887}
   - {fileID: 1597848411}
---- !u!4 &621311101 stripped
-Transform:
+--- !u!224 &621311101 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 732936504}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &627560615 stripped
-Transform:
+--- !u!224 &627560615 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 547089368}
   m_PrefabAsset: {fileID: 0}
@@ -4825,6 +5073,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (8)
@@ -4843,11 +5103,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4879,6 +5139,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4961,8 +5229,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649640482}
   m_CullTransparentMesh: 1
---- !u!4 &667967119 stripped
-Transform:
+--- !u!224 &667967119 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1007787873}
   m_PrefabAsset: {fileID: 0}
@@ -5238,6 +5506,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (11)
@@ -5256,11 +5536,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5292,6 +5572,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5452,6 +5740,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (12)
@@ -5470,11 +5770,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5506,6 +5806,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5676,6 +5984,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (1)
@@ -5694,11 +6010,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6003,6 +6319,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (4)
@@ -6021,11 +6345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6064,8 +6388,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
---- !u!4 &791095693 stripped
-Transform:
+--- !u!224 &791095693 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 479338962}
   m_PrefabAsset: {fileID: 0}
@@ -6329,8 +6653,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833312726}
   m_CullTransparentMesh: 1
---- !u!4 &841513433 stripped
-Transform:
+--- !u!224 &841513433 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1012061825}
   m_PrefabAsset: {fileID: 0}
@@ -6422,6 +6746,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (13)
@@ -6444,11 +6780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6480,6 +6816,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6613,13 +6957,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894806800}
   m_CullTransparentMesh: 1
---- !u!4 &896985629 stripped
-Transform:
+--- !u!224 &896985629 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 382100262}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &908573828 stripped
-Transform:
+--- !u!224 &908573828 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 160017081}
   m_PrefabAsset: {fileID: 0}
@@ -7086,6 +7430,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (1)
@@ -7104,11 +7460,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7142,13 +7498,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &991067709 stripped
-Transform:
+--- !u!224 &991067709 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1192770540}
   m_PrefabAsset: {fileID: 0}
@@ -7296,6 +7660,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (9)
@@ -7314,11 +7686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7365,6 +7737,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (15)
@@ -7383,11 +7767,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 117.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7421,13 +7805,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &1023527110 stripped
-Transform:
+--- !u!224 &1023527110 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1148550790}
   m_PrefabAsset: {fileID: 0}
@@ -7587,6 +7979,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (4)
@@ -7605,11 +8009,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7643,6 +8047,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7656,6 +8068,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (6)
@@ -7674,11 +8094,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7819,8 +8239,8 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!4 &1089432489 stripped
-Transform:
+--- !u!224 &1089432489 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 2089365859}
   m_PrefabAsset: {fileID: 0}
@@ -7922,8 +8342,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 518550772}
   m_SourcePrefab: {fileID: 100100000, guid: 2093022791c994eaa9be39d1b3972d9d, type: 3}
---- !u!4 &1121497049 stripped
-Transform:
+--- !u!224 &1121497049 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 206408638}
   m_PrefabAsset: {fileID: 0}
@@ -7935,6 +8355,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (21)
@@ -7953,11 +8385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 112.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7991,13 +8423,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &1151546858 stripped
-Transform:
+--- !u!224 &1151546858 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1570716852}
   m_PrefabAsset: {fileID: 0}
@@ -8084,6 +8524,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (2)
@@ -8102,11 +8554,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1333996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8138,6 +8590,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8234,6 +8694,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (1)
@@ -8252,11 +8724,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 116.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8290,6 +8762,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8303,6 +8783,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8
@@ -8321,11 +8809,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 99.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8558,6 +9046,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (17)
@@ -8576,11 +9076,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8614,6 +9114,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8627,6 +9135,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (10)
@@ -8645,11 +9165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -71.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8683,13 +9203,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
---- !u!4 &1266506303 stripped
-Transform:
+--- !u!224 &1266506303 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1500425972}
   m_PrefabAsset: {fileID: 0}
@@ -9132,6 +9660,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (7)
@@ -9150,11 +9686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -96.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9193,8 +9729,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
---- !u!4 &1351440287 stripped
-Transform:
+--- !u!224 &1351440287 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1400819941}
   m_PrefabAsset: {fileID: 0}
@@ -9281,6 +9817,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1
@@ -9299,11 +9847,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5779905
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1333996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9337,23 +9885,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &1386560344 stripped
-Transform:
+--- !u!224 &1386560344 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1386560343}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1393095039 stripped
-Transform:
+--- !u!224 &1393095039 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 788088094}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1397045511 stripped
-Transform:
+--- !u!224 &1397045511 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1692186708}
   m_PrefabAsset: {fileID: 0}
@@ -9365,6 +9921,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (14)
@@ -9383,11 +9951,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -63.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1333996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9419,6 +9987,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9455,8 +10031,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1386560344}
-  - {fileID: 896985629}
   - {fileID: 178788919}
   - {fileID: 1351440287}
   - {fileID: 991067709}
@@ -9503,6 +10077,8 @@ Transform:
   - {fileID: 1871681130}
   - {fileID: 791095693}
   - {fileID: 508036852}
+  - {fileID: 1386560344}
+  - {fileID: 896985629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1447367668
@@ -9513,6 +10089,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (20)
@@ -9531,11 +10119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9567,6 +10155,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9624,8 +10220,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!4 &1494726886 stripped
-Transform:
+--- !u!224 &1494726886 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1340224102}
   m_PrefabAsset: {fileID: 0}
@@ -9637,6 +10233,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (6)
@@ -9655,11 +10263,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9691,6 +10299,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9946,8 +10562,8 @@ MonoBehaviour:
   maxThirst: 150
   currentThirst: 0
   decayThirst: 0.75
---- !u!4 &1545932758 stripped
-Transform:
+--- !u!224 &1545932758 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1769590861}
   m_PrefabAsset: {fileID: 0}
@@ -10033,6 +10649,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (3)
@@ -10051,11 +10675,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10474,6 +11098,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (8)
@@ -10492,11 +11124,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10543,6 +11175,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (9)
@@ -10561,11 +11205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10597,6 +11241,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10722,8 +11374,8 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1031899298}
   m_SourcePrefab: {fileID: 100100000, guid: 59c63b6b36690354b9e5c25e36b973a7, type: 3}
---- !u!4 &1629373739 stripped
-Transform:
+--- !u!224 &1629373739 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1051031671}
   m_PrefabAsset: {fileID: 0}
@@ -10798,8 +11450,8 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.059126925
   m_Center: {x: 0, y: 0.025879532, z: 0}
---- !u!4 &1648048351 stripped
-Transform:
+--- !u!224 &1648048351 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
   m_PrefabInstance: {fileID: 1606004239}
   m_PrefabAsset: {fileID: 0}
@@ -10839,13 +11491,13 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &1657528872 stripped
-Transform:
+--- !u!224 &1657528872 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 110769627}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1677657661 stripped
-Transform:
+--- !u!224 &1677657661 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 1599236920}
   m_PrefabAsset: {fileID: 0}
@@ -10965,6 +11617,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (10)
@@ -10983,11 +11647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11019,6 +11683,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11251,8 +11923,8 @@ MonoBehaviour:
   tmp: {fileID: 634622125}
   nameToGet: {fileID: 1999846473}
   restoration: {fileID: 771763722}
---- !u!4 &1719877656 stripped
-Transform:
+--- !u!224 &1719877656 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 399543993}
   m_PrefabAsset: {fileID: 0}
@@ -11392,8 +12064,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725141429}
   m_CullTransparentMesh: 1
---- !u!4 &1735584457 stripped
-Transform:
+--- !u!224 &1735584457 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1447367668}
   m_PrefabAsset: {fileID: 0}
@@ -11547,8 +12219,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1282251661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1743720108 stripped
-Transform:
+--- !u!224 &1743720108 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1834695180}
   m_PrefabAsset: {fileID: 0}
@@ -11560,6 +12232,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (6)
@@ -11578,11 +12262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11616,13 +12300,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &1759493332 stripped
-Transform:
+--- !u!224 &1759493332 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 349251771}
   m_PrefabAsset: {fileID: 0}
@@ -11634,6 +12326,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (4)
@@ -11652,11 +12356,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11688,6 +12392,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11830,6 +12542,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (7)
@@ -11848,11 +12572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11884,6 +12608,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12243,6 +12975,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (13)
@@ -12261,11 +13005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 101.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12299,6 +13043,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12312,6 +13064,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (5)
@@ -12330,11 +13094,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12368,6 +13132,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12381,6 +13153,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (2)
@@ -12399,11 +13179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12517,8 +13297,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844639805}
   m_CullTransparentMesh: 1
---- !u!4 &1871681130 stripped
-Transform:
+--- !u!224 &1871681130 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1247485755}
   m_PrefabAsset: {fileID: 0}
@@ -12566,6 +13346,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 81307664116059462, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685925107134992467, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_Name
       value: Chestnut 8 (5)
@@ -12584,11 +13372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -65.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1211617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12833,7 +13621,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &1930167888
 MonoBehaviour:
@@ -12848,8 +13636,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemTemplate
   itemText: {fileID: 11400000, guid: 80b6a2544f012304790851f0f3645dda, type: 2}
---- !u!4 &1974887484 stripped
-Transform:
+--- !u!224 &1974887484 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: c4b1d2c471aaff04898b4c566e7d08f2, type: 3}
   m_PrefabInstance: {fileID: 747731585}
   m_PrefabAsset: {fileID: 0}
@@ -13315,8 +14103,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999846471}
   m_CullTransparentMesh: 1
---- !u!4 &2000242485 stripped
-Transform:
+--- !u!224 &2000242485 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 643060941}
   m_PrefabAsset: {fileID: 0}
@@ -13456,8 +14244,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012035516}
   m_CullTransparentMesh: 1
---- !u!4 &2014673958 stripped
-Transform:
+--- !u!224 &2014673958 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 1239702233}
   m_PrefabAsset: {fileID: 0}
@@ -13469,6 +14257,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (16)
@@ -13487,11 +14287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13523,6 +14323,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13655,6 +14463,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 557995066758969551, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_Name
       value: Chestnut 1 (5)
@@ -13673,11 +14493,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2683697
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13711,13 +14531,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178036034340522067, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 733e0985fe2f8674981f217143ec930a, type: 3}
---- !u!4 &2079463772 stripped
-Transform:
+--- !u!224 &2079463772 stripped
+RectTransform:
   m_CorrespondingSourceObject: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
   m_PrefabInstance: {fileID: 708036171}
   m_PrefabAsset: {fileID: 0}
@@ -13819,6 +14647,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (19)
@@ -13837,11 +14677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13873,6 +14713,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13970,6 +14818,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403610626}
     m_Modifications:
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337537644444699406, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1991462268964490261, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_Name
       value: Chestnut 5 (9)
@@ -13988,11 +14848,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1194488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14024,6 +14884,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642244604936993471, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104814442786123568, guid: 0a37a79028ba9924a819af7ab8357711, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14351,7 +15219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1735325759476741236, guid: 8c28f7e3ab310644491fa10506eaaa40, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7267332
+      value: 163.1
       objectReference: {fileID: 0}
     - target: {fileID: 1735325759476741236, guid: 8c28f7e3ab310644491fa10506eaaa40, type: 3}
       propertyPath: m_LocalPosition.y

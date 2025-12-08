@@ -25,6 +25,7 @@ public class SlotClick : MonoBehaviour
     {
         itemName = tmp.text;
         itemIndex = slotIndex;
+        Debug.Log(slotIndex);
         restoration.SaveSlotClick(slotIndex);
         nameToGet.text = itemName;
     }
