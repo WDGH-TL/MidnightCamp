@@ -13736,7 +13736,7 @@ MonoBehaviour:
   maxHunger: 200
   currentHunger: 0
   decayHunger: 0.25
-  sceneManager: {fileID: 0}
+  sceneManager: {fileID: 1737862375}
 --- !u!114 &1524432020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13753,7 +13753,7 @@ MonoBehaviour:
   maxThirst: 150
   currentThirst: 0
   decayThirst: 0.75
-  sceneManager: {fileID: 0}
+  sceneManager: {fileID: 1737862375}
 --- !u!1 &1537894421
 GameObject:
   m_ObjectHideFlags: 0
