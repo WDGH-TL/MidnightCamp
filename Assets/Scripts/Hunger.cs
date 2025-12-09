@@ -9,7 +9,7 @@ public class Hunger : MonoBehaviour
     public float maxHunger = 100f;
     public float currentHunger;
     public float decayHunger = 0.25f;
-
+    public SceneChanger sceneManager;
     public static Hunger instance;
 
     public void Start()
@@ -44,7 +44,7 @@ public class Hunger : MonoBehaviour
 
         if (currentHunger <= 0)
         {
-            Debug.Log("El jugador ha muerto por hambre o sed.");
+            sceneManager.eaten();
         }
     }
 

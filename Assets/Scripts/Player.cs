@@ -44,7 +44,6 @@ public class Player : MonoBehaviour
 
         movement();
         mouseLook();
-        inventoryAccess();
 
 
         if (Physics.Raycast(camara.position, camara.forward, out RaycastHit hit, rayDistance))
@@ -168,11 +167,4 @@ public class Player : MonoBehaviour
         }
     }
 
-    void inventoryAccess()
-    {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            Debug.Log("Accediendo al inventario");
-        }
-    }
 }

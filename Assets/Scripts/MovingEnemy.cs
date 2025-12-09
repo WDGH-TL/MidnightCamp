@@ -127,12 +127,5 @@ public class MovingEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(miGo.transform.position, detection);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            
-        }
-    }
 
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Thirst : MonoBehaviour
@@ -9,6 +10,7 @@ public class Thirst : MonoBehaviour
     public float maxThirst = 100f;
     public float currentThirst;
     public float decayThirst = 0.75f;
+    public SceneChanger sceneManager;
 
     public static Thirst instance;
 
@@ -44,7 +46,7 @@ public class Thirst : MonoBehaviour
 
         if (currentThirst <= 0)
         {
-            Debug.Log("El jugador ha muerto por hambre o sed.");
+            sceneManager.eaten();
         }
     }
 

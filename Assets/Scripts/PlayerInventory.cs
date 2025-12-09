@@ -71,16 +71,20 @@ public class PlayerInventory : MonoBehaviour
                 consumeSFX.Play();
                 Thirst.instance.AddThirst(itemData.thirstRestoration);
             }
+            string nombreItem = GetNameItem(inventorySlot);
+            int dropdownIndex = craftingList.findIndex(nombreItem);
 
+            if (dropdownIndex != -1)
+            {
+                craftingList.delete(dropdownIndex);
+            }
             itemInventory[inventorySlot] = null;
             itemIndex[inventorySlot] = 0;
             inventoryUI.RemoveItemFromSlot(inventorySlot);
             SaveInventory();
-            Debug.Log($"Consumido: {itemData.name}. Restauró Hambre y Sed.");
             return true;
         }
 
-        Debug.Log("Este ítem no es consumible.");
         return false;
     }
 
@@ -217,5 +221,28 @@ public class PlayerInventory : MonoBehaviour
             }
         }
         return false;
+    }
+    public string GetNameItem(int index)
+    {
+
+        string nameItem = "";
+        Items item = itemInventory[index];
+
+
+        if (item != null)
+        {
+            int productIndex = itemIndex[index];
+            if (productIndex >= 0 && productIndex < item.itemTemplate.Length)
+            {
+                RESOURCES productData = item.itemTemplate[productIndex];
+
+                nameItem = productData.name;
+
+            }
+        }
+
+
+        return nameItem;
+
     }
 }

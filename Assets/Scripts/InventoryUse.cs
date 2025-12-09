@@ -36,7 +36,7 @@ public class InventoryUse : MonoBehaviour
     public void craft()
     {
         callCrafting.crafting();
-
+        HideMenu();
     }
 
 
@@ -74,6 +74,8 @@ public class InventoryUse : MonoBehaviour
 
             restoration.selectedSlotIndex = -1;
         }
+
+        HideMenu();
     }
 
 }

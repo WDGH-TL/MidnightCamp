@@ -34,7 +34,6 @@ public class ItemUse : MonoBehaviour
             Quaternion targetRotation = playerTransform.rotation;
 
             GameObject nuevoItem = Instantiate(itemPrefab, targetPosition, targetRotation);
-            //nuevoItem.transform.localScale = Vector3.one;
 
             nuevoItem.transform.SetParent(playerHands);
             nuevoItem.SetActive(true);
@@ -62,7 +61,6 @@ public class ItemUse : MonoBehaviour
         Quaternion targetRotation = playerTransform.rotation;
 
         GameObject itemSoltado = Instantiate(itemPrefab, targetPosition, targetRotation);
-        //itemSoltado.transform.localScale = Vector3.one;
 
         itemSoltado.SetActive(true);
         Rigidbody rb = itemSoltado.GetComponent<Rigidbody>();
@@ -71,14 +69,19 @@ public class ItemUse : MonoBehaviour
         itemSoltado.transform.SetParent(null);
 
 
-        inventory.RemoveItem(slotIndex);
         int dropdownIndex = dropDown.findIndex(nameItem);
-        dropDown.delete(dropdownIndex);
+        if(dropdownIndex != -1)
+        {
+            dropDown.delete(dropdownIndex);
+
+        }
 
         inventoryUI.RemoveItemFromSlot(slotIndex);
 
         if (grabbed != null)
         {
+            inventory.RemoveItem(slotIndex);
+
             Destroy(grabbed);
         }
     }
